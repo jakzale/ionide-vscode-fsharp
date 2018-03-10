@@ -62,6 +62,7 @@
     <Compile Include="Components/Degugger.fs" />
     <Compile Include="Components/VsCodeIconTheme.fs" />
     <Compile Include="Components/SolutionExplorer.fs" />
+    <Compile Include="Components/ILViewer.fs" />
     <Compile Include="fsharp.fs" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />

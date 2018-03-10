@@ -423,6 +423,10 @@
 			{
 				"command": "fsharp.explorer.solution.addProject",
 				"title": "Add project"
+			},
+			{
+				"command": "fsharp.ILViewer",
+				"title": "IL Viewer"
 			}
 		],
 		"views": {

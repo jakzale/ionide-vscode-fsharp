@@ -80,6 +80,7 @@ let activate (context: ExtensionContext) : Api =
         SignatureData.activate context
         Debugger.activate context
         Diagnostics.activate context
+        ILCodeViewer.activate context
     )
     |> Promise.catch (fun error -> promise { () }) // prevent unhandled rejected promises
     |> ignore
